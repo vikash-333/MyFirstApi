@@ -8611,11 +8611,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\vikash-333\\FirstStep\\BooksApi\\BooksApi.csproj",
+      "projectUniqueName": "D:\\Projects\\BooksApi\\BooksApi.csproj",
       "projectName": "BooksApi",
-      "projectPath": "C:\\Users\\Asus\\source\\repos\\vikash-333\\FirstStep\\BooksApi\\BooksApi.csproj",
+      "projectPath": "D:\\Projects\\BooksApi\\BooksApi.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\source\\repos\\vikash-333\\FirstStep\\BooksApi\\obj\\",
+      "outputPath": "D:\\Projects\\BooksApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
