@@ -7,7 +7,6 @@ D:\Projects\EmployeeManagement\bin\Debug\netcoreapp3.1\EmployeeManagement.runtim
 D:\Projects\EmployeeManagement\bin\Debug\netcoreapp3.1\EmployeeManagement.runtimeconfig.dev.json
 D:\Projects\EmployeeManagement\bin\Debug\netcoreapp3.1\EmployeeManagement.dll
 D:\Projects\EmployeeManagement\bin\Debug\netcoreapp3.1\EmployeeManagement.pdb
-D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csprojAssemblyReference.cache
 D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\staticwebassets\EmployeeManagement.StaticWebAssets.Manifest.cache
 D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\staticwebassets\EmployeeManagement.StaticWebAssets.xml
 D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.MvcApplicationPartsAssemblyInfo.cache
@@ -16,3 +15,17 @@ D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.Assemb
 D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.RazorTargetAssemblyInfo.cache
 D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.dll
 D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.pdb
+D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csproj.CoreCompileInputs.cache
+D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.genruntimeconfig.cache
+D:\Projects\EmployeeManagement\bin\Debug\netcoreapp3.1\EmployeeManagement.Views.dll
+D:\Projects\EmployeeManagement\bin\Debug\netcoreapp3.1\EmployeeManagement.Views.pdb
+D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.RazorAssemblyInfo.cache
+D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.RazorAssemblyInfo.cs
+D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.TagHelpers.input.cache
+D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.TagHelpers.output.cache
+D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.RazorCoreGenerate.cache
+D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.RazorTargetAssemblyInfo.cs
+D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.Views.pdb
+D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csproj.CopyComplete
+D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
+D:\Projects\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csprojAssemblyReference.cache
