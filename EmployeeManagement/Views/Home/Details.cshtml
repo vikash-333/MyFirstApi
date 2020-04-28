@@ -1,21 +1,22 @@
-﻿<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title></title>
-</head>
-<body>
-    <h3>@ViewBag.PageTitle</h3>
+﻿@model Employee
+
+@{
+    
+    ViewBag.Title = "Employee Details";
+}
+
     
     <div>
-        Name:   @ViewBag.Employee.Name
+        Name:   @Model.Name
     </div>
     <div>
-        Id: @ViewBag.Employee.Id
+        Id: @Model.Id
     </div>
     <div>
-        Email:  @ViewBag.Employee.Email
+        Email:  @Model.Email
     </div>
     <div>
-        Department: @ViewBag.Employee.Department
+        Department: @Model.Department
     </div>
-</body>
-</html>
+
+    <script src="~/js/CustomScript.js"></script>

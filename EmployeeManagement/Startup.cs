@@ -17,7 +17,7 @@ namespace EmployeeManagement
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc(options => options.EnableEndpointRouting = false);
+            services.AddMvc(options => options.EnableEndpointRouting = false).AddXmlSerializerFormatters();
             services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
         }
 
@@ -31,10 +31,16 @@ namespace EmployeeManagement
             }
 
             app.UseStaticFiles();
-            app.UseMvcWithDefaultRoute();
+            //app.UseMvcWithDefaultRoute();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute("default", "{controller=home}/{action=index}/{id?}");
+            });
+            
+            
+            
             app.Run(async (context) =>
                 {
-                    
                     await context.Response.WriteAsync("Hosting Environment : "+env.EnvironmentName);
                 });
            
