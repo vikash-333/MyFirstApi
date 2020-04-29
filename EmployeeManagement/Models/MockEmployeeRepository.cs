@@ -16,6 +16,7 @@ namespace EmployeeManagement.Models
                 new Employee(){Id=1,Name="VK",Email="abc@gmail.com",Department="abc"},
                 new Employee(){Id=2,Name="MAD",Email="def@gmail.com",Department="def"},
                 new Employee(){Id=3,Name="ASK",Email="ghi@gmail.com",Department="ghi"}
+                //new Employee(){Id=4,Name="SBR",Email="jkl@gmail.com",Department="jkl"}
             };
         }
 
