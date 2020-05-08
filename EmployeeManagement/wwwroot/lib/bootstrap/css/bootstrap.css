@@ -4828,7 +4828,7 @@ input[type="button"].btn-block {
 .card-img,
 .card-img-top,
 .card-img-bottom {
-
+  -ms-flex-negative: 0;
   flex-shrink: 0;
   width: 100%;
 }
@@ -4837,7 +4837,6 @@ input[type="button"].btn-block {
 .card-img-top {
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
- 
 }
 
 .card-img,

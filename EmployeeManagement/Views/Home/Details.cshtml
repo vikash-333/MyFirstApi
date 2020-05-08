@@ -7,17 +7,17 @@
 
 
 @*<div>
-    Name:   @Model.Name
-</div>
-<div>
-    Id: @Model.Id
-</div>
-<div>
-    Email:  @Model.Email
-</div>
-<div>
-    Department: @Model.Department
-</div>*@
+        Name:   @Model.Name
+    </div>
+    <div>
+        Id: @Model.Id
+    </div>
+    <div>
+        Email:  @Model.Email
+    </div>
+    <div>
+        Department: @Model.Department
+    </div>*@
 
 <div class="row justify-content-center m-3">
     <div class="col-sm-8">
@@ -50,7 +50,7 @@
 
             </div>
             <div class="card-footer text-center">
-                <a  asp-action="index"  class="btn btn-primary">Back</a>
+                <a asp-action="index" class="btn btn-primary">Back</a>
                 <a href="#" class="btn btn-primary">Edit</a>
                 <a href="#" class="btn btn-danger">Delete</a>
             </div>
@@ -58,6 +58,8 @@
     </div>
 </div>
 
-
+@section Scripts{
     <script src="~/js/CustomScript.js"></script>
+}
+
 
