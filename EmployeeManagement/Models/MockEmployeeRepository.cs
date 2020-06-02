@@ -27,6 +27,21 @@ namespace EmployeeManagement.Models
             return emp;
         }
 
+        public Employee AddEmployee(Employee emp)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Employee DeleteEmployee(int id)
+        {
+            Employee emp = _employeeList.FirstOrDefault<Employee>(e=>e.Id==id);
+            if(emp!=null)
+            {
+                _employeeList.Remove(emp);
+            }
+            return emp;
+        }
+
         public IEnumerable<Employee> GetAllEmployee()
         {
             return _employeeList;
@@ -35,6 +50,18 @@ namespace EmployeeManagement.Models
         public Employee GetEmployee(int Id)
         {
             return _employeeList.FirstOrDefault(e => e.Id == Id);
+        }
+
+        public Employee UpdateEmployee(Employee empUpdates)
+        {
+            Employee emp = _employeeList.FirstOrDefault<Employee>(e => e.Id == empUpdates.Id);
+            if (emp != null)
+            {
+                emp.Name = empUpdates.Name;
+                emp.Department = empUpdates.Department;
+                emp.Email = empUpdates.Email;
+            }
+            return emp;
         }
     }
 }
